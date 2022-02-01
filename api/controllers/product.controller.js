@@ -69,7 +69,7 @@ const getAllProductsAdmin = handleAsyncError(async (req, res) =>{
 // get all products
 const getAllProducts = handleAsyncError(async (req, res) => { 
     
-    const resultPerPage = 8;
+    const resultPerPage = 12;
     const currentPage = req.query.page? Number(req.query.page) : 1;
     const skip = resultPerPage * (currentPage - 1);
 

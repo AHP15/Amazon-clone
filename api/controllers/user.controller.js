@@ -39,7 +39,7 @@ const download = async (req, res) => {
       });
     }
 };
-const baseUrl = "http://localhost:8080/api/v1/auth/files/"
+const baseUrl = "https://amazonclone-mern-stack.herokuapp.com/api/v1/auth/files/"
 const register = handleAsyncError(async (req, res) => {
     
     const {name, email, password} = req.body;

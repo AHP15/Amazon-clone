@@ -40,7 +40,7 @@ const downloadProductImages = async (req, res) => {
 // I have to verify if the product already exist (or may be not)
 const createProduct = handleAsyncError(async (req, res) => {
     
-    const baseUrl = "http://localhost:8080/api/v1/product/files/"
+    const baseUrl = "https://amazonclone-mern-stack.herokuapp.com/api/v1/product/files/"
     const files = req.files.map(file => ({
         public_id:Math.random().toString(),
         url:baseUrl+file.filename
@@ -117,7 +117,7 @@ const getProductDetails = handleAsyncError(async (req, res, next) => {
 // update product -> admin
 const updateProduct = handleAsyncError(async (req, res) => {
     
-    const baseUrl = "http://localhost:8080/api/v1/product/files/"
+    const baseUrl = "https://amazonclone-mern-stack.herokuapp.com/api/v1/product/files/"
     let files = req.files.map(file => ({
         public_id:Math.random().toString(),
         url:baseUrl+file.filename

@@ -1,0 +1,80 @@
+.login,
+.register,
+.forgotPassword,
+.resetPassword{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.login > form,
+.register > form,
+.forgotPassword > form,
+.resetPassword > form{
+    width: 100%;
+    max-width: 350px;
+    height: fit-content;
+    border: 1px solid grey;
+    padding: 40px 10px;
+    border-radius: 5px;
+}
+.login h1,
+.register h1,
+.forgotPassword h1,
+.resetPassword h1{
+    margin-bottom: 20px;
+}
+.login button,
+.register button,
+.forgotPassword button,
+.resetPassword button{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    max-width: 350px;
+    font-size: 18px;
+}
+.login .create{
+    padding: 5px;
+    margin-top: 40px;
+}
+.login > form > button,
+.register > form > button,
+.forgotPassword > form > button,
+.resetPassword > form > button{
+    background-color: rgb(255, 187, 0);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.login .logo,
+.register .logo,
+.sidebar .logo,
+.checkout .logo,
+.forgotPassword .logo,
+.resetPassword .logo{
+    cursor: pointer;
+    height: 75px;
+    width: 150px;
+    margin-top: 70px;
+}
+.checkout .logo{
+    margin: 20px auto;
+}
+.login .logo > img,
+.register .logo > img,
+.sidebar .logo > img,
+.checkout .logo > img,
+.forgotPassword .logo > img,
+.resetPassword .logo > img{
+    width: 128px;
+    display: block;
+    object-fit: contain;
+}
+.forgotpassword{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}

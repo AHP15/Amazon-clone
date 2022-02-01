@@ -1,0 +1,23 @@
+.order_item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-weight: 600;
+}
+.order_item > div {
+    width: 100px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order_item > div > img{
+    width: 100%;
+}
+.OrderItem_name{
+    flex: 1;
+    padding: 20px;
+}
+.order_item > p > span{
+    color: gray;
+}

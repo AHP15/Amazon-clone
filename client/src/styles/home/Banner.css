@@ -1,0 +1,19 @@
+.slider{
+    margin-top: 65px;
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    scroll-behavior: smooth;
+}
+.slider::-webkit-scrollbar{
+    display: none;
+}
+.slide{
+    min-width: 100%;
+    height: 80vh;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}

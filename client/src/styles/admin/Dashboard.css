@@ -1,0 +1,33 @@
+.dasboard{
+    display: flex;
+}
+.dashboard_summary{
+    width: calc(100% - 300px);
+    margin-left: 300px;
+}
+.total_amount{
+    background-color: rgb(94, 216, 94);
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+.dashboard_summary > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.line_chart{
+    width: 80%;
+    margin: auto;
+}
+.doughnut_chart{
+    width: 40%;
+    margin: auto;
+}
+.greenColor{
+    color: green;
+}
+.redColor{
+    color: red;
+}

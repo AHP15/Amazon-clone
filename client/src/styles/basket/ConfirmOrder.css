@@ -1,0 +1,17 @@
+.confirm_order{
+    width: 100%;
+    flex: 0.7;
+    padding: 50px;
+    border-right: 1px solid gray;
+}
+.shipping_info{
+    margin-bottom: 20px;
+}
+.shipping_info > p{
+    padding: 7px 25px;
+    font-weight: 600;
+}
+.shipping_info > p > span{
+    color: gray;
+    font-weight: 400;
+}

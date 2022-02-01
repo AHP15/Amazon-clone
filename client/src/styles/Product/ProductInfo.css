@@ -1,0 +1,128 @@
+.productInfo{
+    background-color: white;
+}
+.productDetails_container{
+    padding-top: 50px;
+    margin-top: 65px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.carousel_container{
+    width: 100%;
+    max-width: 350px;
+}
+.product_image_container{
+    width:100%;
+    height: 400px;
+}
+.product_image_container > img{
+    width: 100%;
+}
+.productinfo_container{
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+.product_name{
+    font-size: 2.5rem;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+}
+.product_rating{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.productinfo_container > h2{
+    margin: 15px 5px;
+}
+
+.product_quantity > button{
+    width: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    height: none;
+}
+.product_quantity > button:active{
+    opacity: 0.8;
+}
+.product_quantity > input{
+    width: 40px;
+    font-size: 20;
+    border: none;
+    outline: none;
+    background-color: white;
+    text-align: center;
+}
+.product_add_to_cart{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    margin: 5px;
+}
+.product_add_to_cart > button, .submit_review{
+    padding: 5px 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 187, 0);
+    border-radius: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.product_add_to_cart > button:active, .submit_review:active{
+    opacity: 0.8;
+}
+.product_added{
+    padding: 5px 30px;
+    margin-left: 20px;
+    background-color: green;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.product_status{
+    padding: 15px 0px;
+    border-bottom: 1px solid gray;
+}
+.product_stock{
+    font-weight: 700;
+}
+.product_description{
+    padding: 15px 0px;
+    border-bottom: 1px solid gray;
+    height: fit-content;
+    margin-bottom: 15px;
+}
+.product_description > h3{
+    margin: 10px 5px;
+}
+.product_reviews_container > h2{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    width: 300px;
+    margin: 5px auto;
+}
+.product_skeleton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 60px);
+    margin-top: 65px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.product_reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

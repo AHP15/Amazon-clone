@@ -1,0 +1,9 @@
+.product_table{
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    background-color: white;
+    padding: 20px;
+}
+.product_table h1{
+    margin: 20px;
+}

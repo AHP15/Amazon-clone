@@ -1,0 +1,42 @@
+.review_form{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.review_form > form{
+    width: 350px;
+    height: 400px;
+    margin: 100px auto;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+}
+.review_form > form h1{
+    margin-bottom: 15px;
+}
+.review_form > form textarea{
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+}
+.review_form > form button{
+    padding: 5px 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 187, 0);
+    border-radius: 15px;
+    font-size: 18px;
+}
+.review_form > form button:active{
+    opacity: 0.8;
+}
+.close{
+    position: absolute;
+    top: -20px;
+    right: -30px;
+    color:white ;
+}

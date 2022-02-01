@@ -1,0 +1,18 @@
+.reviewCard{
+    width: 300px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px;
+}
+.review_user{
+    display: flex;
+    align-items: center;
+}
+.review_user .image{
+    width: 40px;
+    height: 40px;
+}
+.review_user .image > img{
+    width: 100%;
+}

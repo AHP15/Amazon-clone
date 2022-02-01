@@ -1,0 +1,23 @@
+
+.input_container{
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.input_container > input, .input_container > select{
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    font-size: 18px;
+    background-color: transparent;
+}
+.input_container > p{
+    color: grey !important;
+    height: fit-content;
+}

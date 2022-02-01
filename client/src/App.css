@@ -1,0 +1,25 @@
+/*clip-path: polygon(100% 65%, 0% 100%, 100% 100%);*/
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Open+Sans:wght@300&family=Outfit:wght@300&family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+.app{
+    font-family: 'Roboto', sans-serif;
+    background:linear-gradient(to bottom, transparent, rgba(128, 128, 128, 0.5));
+}
+.alert_error{
+    position: fixed;
+    bottom: 20px;
+    left: 100px;
+    z-index: 200;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    font-size: 18px !important;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes animateError {
+    form{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

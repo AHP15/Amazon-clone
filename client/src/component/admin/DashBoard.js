@@ -77,7 +77,7 @@ function DashBoard() {
                       title="Users"
                       number={`${users.length}`}
                       background="gray"
-                      link="/admin/user" 
+                      link="/admin/users" 
                     />
                 </div>
 
